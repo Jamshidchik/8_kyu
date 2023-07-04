@@ -1,6 +1,6 @@
 
 var a = +prompt( "Son krit:")
-while (isNaN(a) && a == 0  ) {
+while (isNaN(a) || a == 0  ) {
     a = +prompt("Bu son emas Iltimos son kriting:")
 }
 if (a % 2 == 0 ) {
